@@ -1,0 +1,34 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Echo Request Information</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<h1>Echo Request Information</h1>
+<form action="/echo" method="post">
+<div class="form-group">
+<label for="headers">Headers:</label>
+<textarea class="form-control" id="headers" name="headers" rows="5"></textarea>
+</div>
+<div class="form-group">
+<label for="method">Method:</label>
+<input type="text" class="form-control" id="method" name="method">
+</div>
+<div class="form-group">
+<label for="body">Body:</label>
+<textarea class="form-control" id="body" name="body" rows="5"></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
